@@ -1,5 +1,6 @@
 package DiceJobSearchDemo;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -46,6 +47,7 @@ public class JobSearchDice {
 		
 		
 		System.out.println(count);
+		System.out.println("test completed : "+ LocalDateTime.now());
 		
 		
 		Thread.sleep(2000);
